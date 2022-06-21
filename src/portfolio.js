@@ -78,7 +78,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "netsuite",
-      fontAwesomeClassname: "fab fa-netsuite"
+      fontAwesomeClassname: "fa-solid fa-n"
     },
     // {
     //   skillName: "reactjs",
