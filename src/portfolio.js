@@ -96,10 +96,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
     // {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
