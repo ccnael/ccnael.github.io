@@ -26,7 +26,7 @@ const greeting = {
     "Experienced IT professional with a demonstrated history of working in the information technology and services industry and has very strong foundation in NetSuite development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Ug_mV919Oip6VuxQR1HE4EemqXjcFT42/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1DZC_ok4sVfFcGzCVSY9kkPtPU2HIQEeu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
