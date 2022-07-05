@@ -143,11 +143,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "System Design and Architecture", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Software Development", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming (NetSuite Development UI & Business Logic)",
+      Stack: "System Design and Architecture",
       progressPercentage: "80%"
     },
     {
