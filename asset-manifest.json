@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a6005f5.chunk.css",
-    "main.js": "/static/js/main.a716c7d7.chunk.js",
-    "main.js.map": "/static/js/main.a716c7d7.chunk.js.map",
+    "main.css": "/static/css/main.c50fe511.chunk.css",
+    "main.js": "/static/js/main.e644f9f8.chunk.js",
+    "main.js.map": "/static/js/main.e644f9f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e832267.js",
     "runtime-main.js.map": "/static/js/runtime-main.1e832267.js.map",
     "static/js/2.eefd614b.chunk.js": "/static/js/2.eefd614b.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.1387b811.chunk.js": "/static/js/4.1387b811.chunk.js",
     "static/js/4.1387b811.chunk.js.map": "/static/js/4.1387b811.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.eb12b1d69539a9465a5ecf90486db979.js": "/precache-manifest.eb12b1d69539a9465a5ecf90486db979.js",
+    "precache-manifest.57cf56386bfa4cd19ab0a76f12c94c5c.js": "/precache-manifest.57cf56386bfa4cd19ab0a76f12c94c5c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
     "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
-    "static/css/main.1a6005f5.chunk.css.map": "/static/css/main.1a6005f5.chunk.css.map",
+    "static/css/main.c50fe511.chunk.css.map": "/static/css/main.c50fe511.chunk.css.map",
     "static/js/2.eefd614b.chunk.js.LICENSE.txt": "/static/js/2.eefd614b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Saint_Louis_University_(Baguio)_logo.jpeg": "/static/media/Saint_Louis_University_(Baguio)_logo.e49d8d5a.jpeg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.1e832267.js",
     "static/js/2.eefd614b.chunk.js",
-    "static/css/main.1a6005f5.chunk.css",
-    "static/js/main.a716c7d7.chunk.js"
+    "static/css/main.c50fe511.chunk.css",
+    "static/js/main.e644f9f8.chunk.js"
   ]
 }
