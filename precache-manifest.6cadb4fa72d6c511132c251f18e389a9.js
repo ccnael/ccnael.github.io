@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea178c4ee983e874b265ed77e8025880",
+    "revision": "cd92627e9cf7206b6006ad89f878883a",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "87cf1a20ee14db0144d4",
+    "revision": "5d62c1a1359a6280403e",
     "url": "/static/css/main.7be72a8e.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.821851c1.chunk.js"
   },
   {
-    "revision": "87cf1a20ee14db0144d4",
-    "url": "/static/js/main.8e04c94d.chunk.js"
+    "revision": "5d62c1a1359a6280403e",
+    "url": "/static/js/main.9a1520d2.chunk.js"
   },
   {
     "revision": "fe82f07c25b7d923b678",
@@ -60,20 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
-    "revision": "cfa40049dd7a8b24fa5703f481378d31",
-    "url": "/static/media/ct.cfa40049.png"
-  },
-  {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
     "revision": "e79c639294c805688be731921368c8f8",
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
-    "revision": "8aaa54fd66c99607e9f627576f8c73af",
-    "url": "/static/media/jcs.8aaa54fd.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -88,20 +80,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwaLogo.ee62cb58.webp"
   },
   {
-    "revision": "743d9292154c986e86f407e9714bb8cd",
-    "url": "/static/media/rbox.743d9292.jpeg"
-  },
-  {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
-  },
-  {
-    "revision": "171dac056e14360ec109c352ccc903f7",
-    "url": "/static/media/somnomed.171dac05.png"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
