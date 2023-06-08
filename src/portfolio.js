@@ -26,7 +26,7 @@ const greeting = {
     "Experienced IT professional with a demonstrated history of working in the information technology and services industry and has very strong foundation in NetSuite development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Ug_mV919Oip6VuxQR1HE4EemqXjcFT42/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lCRDLCgyK0avyQ3r4k8sq66TcITWn6S0/view?usp=sharing", // CV-Lean-Cendaña.docx.pdf // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -164,10 +164,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "NetSuite Developer",
+      company: "Unaffiliated",
+      companylogo: require("./assets/images/companylogo/Unafilliated.jpg"),
+      date: "Jan 2023 – Present",
+      desc: "",
+      descBullets: [
+        "SuiteScript 2.1 customizations",
+        "Developing APIs to third party systems",
+        "TBC"
+      ]
+    },
+    {
       role: "NetSuite Technical Consultant",
       company: "JCurve Solutions (ASX: JCS)",
       companylogo: require("./assets/images/companylogo/jcs.png"),
-      date: "Dec 2019 – Present",
+      date: "Dec 2019 – Jan 2023",
       desc: "",
       descBullets: [
         "REST API integrations from different Webstore/eCommerce platforms such as Shopify, Magento, BigCommerce, WooCommerce to NetSuite vice versa with the use of Jitterbit and Pistachio Media ConnectSuite (https://pm.connectsuite.io)",
