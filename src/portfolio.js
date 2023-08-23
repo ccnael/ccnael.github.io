@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "lean-cendaña-28593",
+  username: "leancc",
   title: "Hi all, I'm Lean Cendaña",
   subTitle: emoji(
     "Experienced IT professional with a demonstrated history of working in the information technology and services industry and has very strong foundation in NetSuite development. \n\nPage still in progress.. :)"
@@ -65,6 +65,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-typescript"
     },
     {
       skillName: "html-5",
@@ -182,11 +186,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "NetSuite Product Developer",
+      company: "ERP Success Partners",
+      companylogo: require("./assets/images/companylogo/esp.png"),
+      date: "Aug 2023 – Present",
+      desc: "Canada",
+      descBullets: [
+        "Developing SuitetApps and SuiteScript customisations",
+        "TBC"
+      ]
+    },
+    {
       role: "Software Engineer (NetSuite)",
-      company: "Unaffiliated",
-      companylogo: require("./assets/images/companylogo/Unafilliated.jpg"),
-      date: "Jan 2023 – Present",
-      desc: "",
+      company: "BioPak",
+      companylogo: require("./assets/images/companylogo/bp.png"),
+      date: "Jan 2023 – Jul 2023",
+      desc: "Australia",
       descBullets: [
         "NetSuite customizations using SuiteScript 2.1",
         "Developing APIs to third party systems",
@@ -198,7 +213,7 @@ const workExperiences = {
       company: "JCurve Solutions (ASX: JCS)",
       companylogo: require("./assets/images/companylogo/jcs.png"),
       date: "Dec 2019 – Jan 2023",
-      desc: "",
+      desc: "Australia",
       descBullets: [
         "REST API integrations from different Webstore/eCommerce platforms such as Shopify, Magento, BigCommerce, WooCommerce to NetSuite vice versa with the use of Jitterbit and Pistachio Media ConnectSuite (https://pm.connectsuite.io)",
         "Providing APIs and integrates NetSuite to external party systems (Salesforce etc.)",
@@ -216,7 +231,7 @@ const workExperiences = {
       company: "Salora ERP",
       companylogo: require("./assets/images/companylogo/salora.jpeg"),
       date: "Sep 2020 – Present",
-      desc: "",
+      desc: "Denver Colorado",
       descBullets: [
         "Provides technical customizations to Salora US clients",
         "SFTP integrations using user-pass and ssh-key authentication",
@@ -229,7 +244,7 @@ const workExperiences = {
       company: "Somnomed",
       companylogo: require("./assets/images/companylogo/somnomed.png"),
       date: "May 2021 – Jul 2021",
-      desc: "",
+      desc: "North America",
       descBullets: [
         "SuiteScript Customizations (1.0, 2.0, 2.1)",
         "Optimization of existing SuiteScripts to lessen the governance usage and improve user experience",
