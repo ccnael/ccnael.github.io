@@ -122,6 +122,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "coldfusion",
       fontAwesomeClassname: "fad fa-code"
     },
+    {
+      skillName: "yaml",
+      fontAwesomeClassname: "fad fa-yaml"
+    },,
     // {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
@@ -192,8 +196,8 @@ const workExperiences = {
       date: "Aug 2023 – Present",
       desc: "Canada",
       descBullets: [
-        "Developing SuitetApps and SuiteScript customisations",
-        "TBC"
+        "Developing and maintaining SuiteApps",
+        "NetSuite Product Development"
       ]
     },
     {
@@ -219,6 +223,7 @@ const workExperiences = {
         "Providing APIs and integrates NetSuite to external party systems (Salesforce etc.)",
         "SuiteScript (1.0, 2.0, 2.1) customizations",
         "Optimization of existing SuiteScripts",
+        "Building custom HTML suitelets using Bootstrap and other frameworks",
         "SuiteTalk SOAP web service integrations",
         "Developing SuiteApps (BFN standards compliant)",
         "SFTP integration using user-pass and ssh-key authentication methods",
@@ -247,6 +252,7 @@ const workExperiences = {
       desc: "North America",
       descBullets: [
         "SuiteScript Customizations (1.0, 2.0, 2.1)",
+        "Building custom HTML suitelets using Bootstrap and other frameworks",
         "Optimization of existing SuiteScripts to lessen the governance usage and improve user experience",
         "SDF customizations deployment to other environments",
       ]
@@ -266,9 +272,9 @@ const workExperiences = {
       company: "WolfRayet Group",
       companylogo: require("./assets/images/companylogo/wolfrayet.png"),
       date: "Aug 2019 – Dec 2019",
-      desc: "Provides technical customizations to WolfRayet UAE clients using SuiteScript 2.0, 2.1",
       descBullets: [
-
+        "Provides technical customizations to WolfRayet UAE clients using SuiteScript 2.0, 2.1",
+        "Building custom HTML suitelets using Bootstrap and other frameworks",
       ]
     },
     {
@@ -283,6 +289,7 @@ const workExperiences = {
         "SuiteTalk (REST, SOAP, PHP Toolkit) Web Services integrations",
         "Automatically updates drug information (NetSuite items) using FDB Cloud Connector Web APIs",
         "Provides technical customizations and support to stakeholders and end users",
+        "Building custom HTML suitelets using Bootstrap and other frameworks",
         "Optimization of existing scripts and converted from SuiteScript 1.0 to SuiteScript 2.1",
       ]
     },
