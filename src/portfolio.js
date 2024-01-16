@@ -26,7 +26,7 @@ const greeting = {
     "Experienced IT professional with a demonstrated history of working in the information technology and services industry and has very strong foundation in NetSuite development. \n\nPage still in progress.. :)"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1pgBE0PD_yhuyDWO4DMSAkR2oomAqIt7I/view?usp=sharing", // Lean-Cendaña-CV-12102023.pdf // Set to empty to hide the button
+    "https://drive.google.com/file/d/1vqHp11gIEAPsB3sa3DFFSYz22C1S7cPZ/view?usp=drive_link", // Resume-Lean-Cendaña.pdf // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
