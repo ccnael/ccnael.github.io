@@ -207,7 +207,7 @@ const workExperiences = {
       role: "Freelance NetSuite Developer",
       company: "Salora ERP",
       companylogo: require("./assets/images/companylogo/salora.jpeg"),
-      date: "Sep 2020 – Present",
+      date: "Sep 2020 - Dec 2021",
       desc: "Denver Colorado, USA",
       descBullets: [
         "Provides technical customizations to Salora US clients",
