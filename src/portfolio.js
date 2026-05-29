@@ -26,7 +26,7 @@ const greeting = {
     "I am an experienced IT professional specializing in NetSuite development and system integrations, with a solid foundation in ERP customization and web technologies. Over the years, I’ve gained extensive experience in designing, developing, and deploying business solutions that streamline operations and enhance productivity."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1lCRDLCgyK0avyQ3r4k8sq66TcITWn6S0/view?usp=sharing", // CV-Lean-Cendaña.docx.pdf // Set to empty to hide the button
+    "https://drive.google.com/file/d/1rb9Ljj-hoAa-PRKiFsj-n7Bhwh0FuE8l/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -170,6 +170,8 @@ const workExperiences = {
       descBullets: [
         "Developing SuiteApps using modern techstack that includes React, TypeScript, Tailwind CSS, shadcn/ui",
         "REST API Record and SuiteQL services implementation using OAuth 2.0 to external party systems",
+        "Performs unit testing using Jest for SuiteApp projects",
+        "Leverages AI tools (Claude, GitHub Copilot) to accelerate development across SuiteApp projects"
       ]
     },
     {
