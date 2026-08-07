@@ -168,7 +168,7 @@ const workExperiences = {
       date: "Aug 2023 – Present",
       desc: "North America",
       descBullets: [
-        "Developing SuiteApps using modern techstack that includes React, TypeScript, Tailwind CSS, shadcn/ui",
+        "Developing React-based Suitelet SuiteApps using modern techstack that includes React, TypeScript, Tailwind CSS, shadcn/ui",
         "REST API Record and SuiteQL services implementation using OAuth 2.0 to external party systems",
         "Performs unit testing using Jest for SuiteApp projects",
         "Leverages AI tools (Claude, GitHub Copilot) to accelerate development across SuiteApp projects",
