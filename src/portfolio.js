@@ -26,7 +26,7 @@ const greeting = {
     "I am an experienced IT professional specializing in NetSuite development and system integrations, with a solid foundation in ERP customization and web technologies. Over the years, I’ve gained extensive experience in designing, developing, and deploying business solutions that streamline operations and enhance productivity."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rb9Ljj-hoAa-PRKiFsj-n7Bhwh0FuE8l/view?usp=drive_link",
+    "https://drive.google.com/file/d/14rAdbarnnRyhvW93kORoamJGj-8L0yHn/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,7 +54,7 @@ const skillsSection = {
     emoji("🔹 Proficient in NetSuite SuiteScript 2.x/2.1"),
     emoji("🔹 Skilled in building RESTful APIs & integrating third-party services (OAuth 2.0, Token-Based Auth)"),
     emoji("🔹 Hands-on experience with SFTP Integration for secure data exchange (CSV, XML, JSON)"),
-    emoji("🔹 Building responsive UIs with React.js and modern JavaScript (ES6+)"),
+    emoji("🔹 Building responsive UIs with React, Vue and modern frontend library/frameworks"),
     emoji("🔹 Styling with Tailwind CSS, Bootstrap, and custom CSS3/HTML5"),
     emoji("🔹 Experience with TypeScript for scalable and maintainable frontend code"),
   ],
@@ -80,11 +80,16 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "suitescript",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "",
+      logo: "netsuite.svg"
     },
     {
-      skillName: "reactjs",
+      skillName: "react",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vue",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     // {
     //   skillName: "nodejs",
@@ -104,7 +109,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "coldfusion",
@@ -162,13 +167,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "NetSuite Technical Consultant",
+      company: "Salora ERP",
+      companylogo: require("./assets/images/companylogo/salora.jpeg"),
+      date: "October 2026 – Present",
+      desc: "Denver Colorado, United States",
+      descBullets: []
+    },
+    {
       role: "Senior NetSuite Product Developer",
       company: "ERP Success Partners",
       companylogo: require("./assets/images/companylogo/erpsuccesspartners.jpg"),
-      date: "Aug 2023 – Present",
+      date: "Aug 2023 – September 2026",
       desc: "North America",
       descBullets: [
-        "Developing React-based Suitelet SuiteApps using modern techstack that includes React, TypeScript, Tailwind CSS, shadcn/ui",
+        "Developed React-based Suitelet SuiteApps using modern techstack that includes React, TypeScript, Tailwind CSS, shadcn/ui",
         "REST API Record and SuiteQL services implementation using OAuth 2.0 to external party systems",
         "Performs unit testing using Jest for SuiteApp projects",
         "Leverages AI tools (Claude, GitHub Copilot) to accelerate development across SuiteApp projects",
@@ -182,9 +195,9 @@ const workExperiences = {
       date: "Jan 2023 – Jul 2023",
       desc: "Australia",
       descBullets: [
-        "NetSuite customizations using SuiteScript 2.1",
-        "Developing APIs to third party systems",
-        "Optimization of existing SuiteScripts to lessen the governance usage and improve user experience"
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
+        "Optimized existing SuiteScripts to improve performance and reduce governance consumption.",
+        "Designed and implemented RESTlet APIs for integration with external systems"
       ]
     },
     {
@@ -194,30 +207,26 @@ const workExperiences = {
       date: "Dec 2019 – Jan 2023",
       desc: "Australia",
       descBullets: [
-        "REST API integrations from different Webstore/eCommerce platforms such as Shopify, Magento, BigCommerce, WooCommerce to NetSuite vice versa with the use of Jitterbit and Pistachio Media ConnectSuite (https://pm.connectsuite.io)",
-        "Providing APIs and integrates NetSuite to external party systems (Salesforce etc.)",
-        "SuiteScript (1.0, 2.0, 2.1) customizations",
-        "Optimization of existing SuiteScripts",
-        "Building custom HTML suitelets using Bootstrap and other frameworks",
-        "SuiteTalk SOAP web service integrations",
-        "Developing SuiteApps (BFN standards compliant)",
-        "SFTP integration using user-pass and ssh-key authentication methods",
-        "Salesforce API exposure",
-        "Managing Pistachio Media ConnectSuite server side written in ColdFusion Code",
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
+        "Delivered integrations with Shopify, Magento, WooCommerce, BigCommerce, and Salesforce using middleware Jitterbit NetSuite connector and Pistachio Media ConnectSuite",
+        "Developed BFN-compliant SuiteApps",
+        "Implemented SuiteTalk SOAP and SFTP integrations",
+        "Developed and supported NetSuite Payment File Administration processes, enabling approved payment files to be securely transmitted to banking institutions via SFTP",
+        "Optimized SuiteScript solutions and middleware integrations"
       ]
     },
     {
       role: "Freelance NetSuite Developer",
-      company: "Salora ERP",
-      companylogo: require("./assets/images/companylogo/salora.jpeg"),
-      date: "Sep 2020 - Dec 2021",
-      desc: "Denver Colorado, USA",
+      company: "Confidential",
+      companylogo: require("./assets/images/companylogo/confidential.jpg"),
+      date: "Sep 2021 - Dec 2023",
+      desc: "United States",
       descBullets: [
-        "Provides technical customizations to Salora US clients",
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
         "SFTP integrations using user-pass and ssh-key authentication",
         "REST API integrations",
-        "Suitelet UI development using Reactjs library",
-        "Advance PDF template customizations",
+        "Suitelet UI development using React, Vue modern frontend library/frameworks",
+        "Advance PDF template customizations using Freemarker Syntax",
       ]
     },
     {
@@ -227,8 +236,8 @@ const workExperiences = {
       date: "May 2021 – Jul 2021",
       desc: "North America",
       descBullets: [
-        "SuiteScript Customizations (1.0, 2.0, 2.1)",
-        "Building custom HTML suitelets using Bootstrap and other frameworks",
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
+        "Built Suitelet UI's using Bootstrap DataTables and other frameworks",
         "Optimization of existing SuiteScripts to lessen the governance usage and improve user experience",
         "SDF customizations deployment to other environments",
       ]
@@ -250,8 +259,8 @@ const workExperiences = {
       date: "Aug 2019 – Dec 2019",
       desc: "",
       descBullets: [
-        "Provides technical customizations to WolfRayet UAE clients using SuiteScript 2.0, 2.1",
-        "Building custom HTML suitelets using Bootstrap and other frameworks"
+        "Provides technical customizations to WolfRayet UAE clients using SuiteScript 2.1",
+        "Built Suitelet UI's using Bootstrap DataTables and other frameworks",
       ]
     },
     {
@@ -261,13 +270,10 @@ const workExperiences = {
       date: "Nov 2018 – Dec 2019",
       desc: "",
       descBullets: [
-        "Providing APIs to third party systems",
-        "EDI - SFTP Integration",
-        "SuiteTalk (REST, SOAP, PHP Toolkit) Web Services integrations",
-        "Automatically updates drug information (NetSuite items) using FDB Cloud Connector Web APIs",
-        "Provides technical customizations and support to stakeholders and end users",
-        "Building custom HTML suitelets using Bootstrap and other frameworks",
-        "Optimization of existing scripts and converted from SuiteScript 1.0 to SuiteScript 2.1",
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
+        "Developed APIs, EDI integrations, and SFTP solutions",
+        "Implemented SuiteTalk REST and SOAP integrations",
+        "Integrated FDB Cloud Connector APIs for automated item updates"
       ]
     },
     {
@@ -275,8 +281,13 @@ const workExperiences = {
       company: "CloudTechERP",
       companylogo: require("./assets/images/companylogo/ct.png"),
       date: "Dec 2014 – Nov 2018",
-      desc: "Part of the development team that implements NetSuite to small, medium and global enterprise businesses using SuiteScript, SuiteTalk, SuiteBuilder, SuiteFlow, Advanced PDF, Providing APIs to third party systems, Customization of complex UI and reports for managing large number of data using open source js libraries such as Bootstrap Data tables, Google graphs API etc.",
+      desc: "Part of the development team that implements NetSuite to small, mediu and global enterprise businesses using SuiteScript, SuiteTalk, SuiteBuilder, SuiteFlow, Advanced PDF, Providing APIs to third party systems, Customization of complex UI and reports for managing large number of data using open source js libraries such as Bootstrap Data tables, Google graphs API etc.",
       descBullets: [
+        "Developed custom NetSuite solutions using SuiteScript 2.1",
+        "Implemented NetSuite solutions for SMB and enterprise clients",
+        "Developed SuiteScript, SuiteFlow, SuiteTalk, SuiteBuilder, and Advanced PDF solutions",
+        "Built Suitelet UI's using Bootstrap DataTables and other frameworks",
+        "Built custom integrations, reports, and dashboards"
       ]
     }
   ]

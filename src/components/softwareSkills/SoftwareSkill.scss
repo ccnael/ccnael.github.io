@@ -22,10 +22,30 @@
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
+
+/* Image logo drawn as a mask so it takes the same colors as the icon fonts */
+.skill-logo {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 3rem;
+  background-color: $subTitle;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
+.software-skill-inline > .skill-logo:hover {
+  background-color: $skillsColor;
+}
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
-.software-skill-inline > i:hover ~ p {
+.software-skill-inline > i:hover ~ p,
+.software-skill-inline > .skill-logo:hover ~ p {
   color: $skillsColor;
 }

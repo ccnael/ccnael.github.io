@@ -14,7 +14,17 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                {skills.logo ? (
+                  <span
+                    className="skill-logo"
+                    style={{
+                      maskImage: `url(${process.env.PUBLIC_URL}/${skills.logo})`,
+                      WebkitMaskImage: `url(${process.env.PUBLIC_URL}/${skills.logo})`,
+                    }}
+                  ></span>
+                ) : (
+                  <i className={skills.fontAwesomeClassname}></i>
+                )}
                 <p>{skills.skillName}</p>
               </li>
             );
