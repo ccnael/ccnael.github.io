@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -d build -b release-pag-052926 -f",
+    "deploy": "gh-pages -d build -b release-page-100526 -f",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "ajv": "^8.20.0",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
   }

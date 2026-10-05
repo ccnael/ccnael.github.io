@@ -65,6 +65,7 @@ const Main = () => {
             <Podcast />
             <Profile />
             <ScrollToTopButton />
+            <Footer />
           </>
         )}
       </StyleProvider>
