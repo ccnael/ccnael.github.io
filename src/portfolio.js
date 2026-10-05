@@ -167,7 +167,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "NetSuite Developer",
+      role: "NetSuite Technical Consultant",
       company: "Salora ERP",
       companylogo: require("./assets/images/companylogo/salora.jpeg"),
       date: "October 2026 – Present",
